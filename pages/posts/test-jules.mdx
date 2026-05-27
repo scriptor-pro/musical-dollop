@@ -1,0 +1,29 @@
+---
+title: Note de test Jules
+date: 2026-05-27
+tag: test, jules, ssg
+author: Baudouin
+description: Note créée pour tester l'intégration Jules → Nextra → Vercel.
+---
+
+## Test d'intégration
+
+Cette note sert à vérifier que Jules peut publier correctement vers ce site Next.js.
+
+Points à vérifier :
+- Le frontmatter est bien interprété par Nextra
+- La date s'affiche correctement
+- Les tags sont présents dans les métadonnées
+- Le déploiement Vercel se déclenche après le push
+
+## Frontmatter utilisé
+
+Schéma minimal compatible Jules :
+
+```yaml
+title: string
+date: YYYY-MM-DD
+tag: string (virgule-séparé)
+author: string
+description: string
+```
